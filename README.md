@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-quantsonar-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://quantsonar.com/
+QuantSonar provides a hosted China stock data API for A-shares, ETFs and financials, available through a Python SDK, MCP server and REST for research and AI agents. The service delivers real-time and historical market data, supports integration with AI agents, and offers comprehensive documentation, pricing details, and support channels for developers and analysts.
+
+**Areas:** Company · Finance · Data · API · China · Stock-Market
+
+## quantsonar-com on APIs.io
+
+Everything profiled for quantsonar-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quantsonar-com/](https://apis.io/providers/quantsonar-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [quantsonar-com 分红送股 API](https://apis.io/apis/quantsonar-com/quantsonar-com-default-api/) — The 分红送股 API from quantsonar-com — 38 operation(s) for 分红送股.
+- [quantsonar-com ETF API](https://apis.io/apis/quantsonar-com/quantsonar-com-etf-api/) — The ETF API from quantsonar-com — 7 operation(s) for etf.
+- [quantsonar-com Health API](https://apis.io/apis/quantsonar-com/quantsonar-com-health-api/) — The Health API from quantsonar-com — 1 operation(s) for health.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Quantsonar Com Agentic Access](https://apis.io/agentic-access/quantsonar-com/quantsonar-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Quantsonar Com Context](https://apis.io/jsonld/quantsonar-com/quantsonar-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [quantsonar-com API Rules](https://apis.io/rules/quantsonar-com/quantsonar-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Quantsonar Com Authentication](https://apis.io/security/quantsonar-com/quantsonar-com-authentication/)
+- [Quantsonar Com Domain Security](https://apis.io/security/quantsonar-com/quantsonar-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Quantsonar Com Plans Pricing](https://apis.io/plans/quantsonar-com/quantsonar-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Quantsonar Com Rate Limits](https://apis.io/rate-limits/quantsonar-com/quantsonar-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://quantsonar.com/)
+- [Documentation](https://quantsonar.com/en/docs)
+- [Getting started](https://quantsonar.com/en/docs)
+- [API reference](https://quantsonar.com/openapi.json)
+- [Pricing](https://quantsonar.com/en/pricing)
+- [Sign up](https://quantsonar.com/en/register)
+- [Changelog](https://quantsonar.com/changelog)
+- [Terms of service](https://quantsonar.com/en/terms)
+- [Privacy policy](https://quantsonar.com/en/privacy)
+- [GitHub](https://github.com/QuantSonar)
+
+## API Evangelist rating
+
+**Kin Score 60.7** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 48.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 49.5 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 31.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quantsonar-com/](https://apis.io/providers/quantsonar-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for quantsonar-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quantsonar-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
